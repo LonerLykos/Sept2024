@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+        body{
+            height: 100vh;
+        }
+        .box{
+            /*margin: 0 10px;*/
+            width: 200px;
+            height: 200px;
+        }
+        .red{
+            background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /*text-align: center;*/
+        }
+        /*.red p{*/
+        /*    text-align: center;*/
+        /*}*/
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: green;
+        }
+        .container{
+            gap: 60px;
+            height: 100%;
+            background-color: aqua;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box red">
+        <p>Lorem ipsum dolor</p>
+    </div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+</div>
+</body>
+</html>

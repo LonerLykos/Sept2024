@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The List</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 100%;
+      height: 100vh;
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    h1, h5 {
+      text-align: center;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    hr {
+      border: 1px solid lightgrey;
+      margin: 20px 0;
+      width: 80%;
+    }
+    .container1, .container2 {
+      width: 100%;
+      display: flex;
+      justify-content:center;
+      margin: 20px 0;
+      gap: 60px;
+    }
+    .card {
+      width: 180px;
+      height: 220px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      /*margin: 5px; */
+      border: 1px solid lightgrey;
+      border-radius: 20px;
+      background-color: #f9f9f9;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      font-weight: bold;
+    }
+    img{
+      width: 90px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+<h1>What do I have in my fridge?</h1>
+
+<div class="container1">
+  <div class="card">
+    <img src="img/bell-pepper-icon.png" alt="bell-pepper">
+    Pepper
+  </div>
+  <div class="card">
+    <img src="img/fresh-apple-icon.png" alt="apple">
+    Apple
+  </div>
+  <div class="card">
+    <img src="img/cheese-piece-icon.png" alt="cheese">
+    Cheese
+  </div>
+  <div class="card">
+    <img src="img/corn-icon.png" alt="corn">
+    Corn
+  </div>
+  <div class="card">
+    <img src="img/mushroom-icon.png" alt="mushroom">
+    Mushroom
+  </div>
+</div>
+
+
+<div class="container2">
+  <div class="card">
+    <img src="img/garlic-icon.png" alt="garlic">
+    Garlic
+  </div>
+  <div class="card">
+    <img src="img/meat-food-icon.png" alt="beef">
+    Beef
+  </div>
+  <div class="card">
+    <img src="img/fish-color-icon.png" alt="fish">
+    Fish
+  </div>
+  <div class="card">
+    <img src="img/fried-egg-icon.png" alt="fried-egg">
+    Eggs
+  </div>
+  <div class="card">
+    <img src="img/coriander.png" alt="coriander">
+    Coriander
+  </div>
+</div>
+
+<hr>
+
+<h5>___that's all___</h5>
+</body>
+</html>
