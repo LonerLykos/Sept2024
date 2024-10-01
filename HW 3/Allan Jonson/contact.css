@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    /*color: #365454;*/
+    color: red;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Стили для header */
+header {
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav {
+    width: 60%;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #868181;
+    font-size: 18px;
+    transition: color 0.5s;
+}
+
+header nav ul a:hover {
+    color: #051c13;
+}
+
+/*header .active {*/
+/*    color: #365454;*/
+/*}*/
+
+header div {
+    text-align: center;
+}
+
+header div h4 {
+    margin: 0;
+}
+
+header div p {
+    margin: 0;
+    color: #868181;
+}
+
+/* Стили для секции Contact */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 48px;
+    color: #051c13;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #365454;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+section ul a {
+    color: #868181;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+section ul a:hover {
+    color: #051c13;
+}
