@@ -3,28 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
 }
 .active{
-    /*color: #365454;*/
-    color: red;
+    color: #0f0f0f;
 }
-/*-------------------header----------------------*/
-header {
-    font-family: "Orbitron", sans-serif;
+header{
     height: 10vh;
     background-color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed; /* Закрепляет хедер */
-    top: 0; /* Привязывает к верхней части окна */
-    left: 0; /* Привязывает к левой части окна */
-    width: 100%; /* Ширина хедера на всю ширину окна */
-    z-index: 1000; /* Обеспечивает, что хедер будет над другими элементами */
 }
-
 header nav{
-   width: 60%;
+    width: 60%;
 }
 header nav ul{
     width: 100%;
@@ -41,16 +33,13 @@ header nav ul a{
 header nav ul a:hover{
     color: #051c13;
     transition: 1s;
-    transform: scale(2);
 }
 
 header div{
     text-align: center;
 }
-/*--------------HOME------------------------------*/
-/*-------------------section----------------------*/
-.section-home{
-    font-family: "Orbitron", sans-serif;
+
+.sectionHome{
     height: 90vh;
     background-image: url(img.jpg);
     background-size: cover;
@@ -60,18 +49,17 @@ header div{
     flex-direction: column;
 }
 
-.first-text{
-    margin-top: 10vh;
-}
-.section-home p{
+.sectionHome p{
     font-size: 20px;
 }
-.section-home h1{
+
+.sectionHome h1{
     font-size: 100px;
     letter-spacing: 40px;
     margin: 10px 0;
 }
-.section-home button{
+
+.sectionHome button{
     width: 200px;
     height: 40px;
     margin-top: 20px;
@@ -79,17 +67,14 @@ header div{
     color: white;
     border: none;
     border-radius: 4px;
-    transition: 1s;
-}
-.section-home button:hover{
-  transform: scale(1.1);
-    transition: 1s;
+    transition: 0.5s;
 }
 
+.sectionHome button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
-
-
-
-
-
-
+.firstText{
+    margin-top: 10vh;
+}

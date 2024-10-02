@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-/* Общие стили */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .active{
-    /*color: #365454;*/
-    color: red;
+    color: #0f0f0f;
 }
 
 body {
@@ -17,7 +15,7 @@ body {
     color: #333;
 }
 
-/* Стили для header */
+/* -------------------------------Стили для header ---------------------------*/
 header {
     height: 10vh;
     background-color: #fff;
@@ -48,24 +46,15 @@ header nav ul a:hover {
     color: #051c13;
 }
 
-/*header .active {*/
-/*    color: #365454;*/
-/*}*/
-
 header div {
     text-align: center;
 }
 
-header div h4 {
-    margin: 0;
-}
-
 header div p {
-    margin: 0;
     color: #868181;
 }
 
-/* Стили для секции Contact */
+/* -----------------------------Стили для секции Contact--------------------- */
 section {
     padding: 50px;
     text-align: center;
@@ -107,3 +96,4 @@ section ul a {
 section ul a:hover {
     color: #051c13;
 }
+

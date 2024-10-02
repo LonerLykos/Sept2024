@@ -28,9 +28,15 @@ script.js:6 string
 //     console.log(`Ur age is: ${userAge}`)
 // }
 
-let count = 0;
+// let count = 0;
+//
+// do {
+//     console.log(count);
+//     count++ ;
+// } while (count < 10) ;
 
-do {
-    console.log(count);
-    count++ ;
-} while (count < 10) ;
+function add(a, b){
+    return a + b;
+}
+console.log(add(5,6));
+console.log(add(100,200));
