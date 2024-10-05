@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>MacBook Pro 16" - 2</title>
+  <meta charset="UTF-8">
+  <title>MacBook Pro 16" - 2</title>
   <style>
     /*MacBook Pro 16" - 2 */
     /* width: 1728px;*/
@@ -11,34 +11,137 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      overflow: hidden;
     }
     body {
       width: 100vw;
       height: 100vh;
+      flex-direction: column;
+    }
+    body,
+    header,
+    .containerMain,
+    .asideTextContainer1,
+    .asideTextContainer2,
+    aside,
+    footer {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
+    }
+    header {
+      width: 100%;
+      height: 12.928vw;
+      background: #8D8484;
+    }
+    h1, h4, h2, h3 {
+      font-family: Inter, serif;
+      font-size: 2.5vw; /*    45px  */
+      font-weight: 400;
+      line-height: 3vw; /*  54.46px */
+    }
+    h2, h3 {
+      color: #FFFFFF;
+    }
+    /*.containerMain {*/
+    /*  display: flex;*/
+    /*  justify-content: center;*/
+    /*  align-items: center;*/
+    /*}*/
+    .content1,
+    .content2,
+    .content3 {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 73.264vw;
+      height: 20vh;
+    }
+    .content1 {
+      background: #776969;
+    }
+    .content2 {
+      background: #643030;
+    }
+    .content3 {
+      background: #441818;
     }
 
-
-
+    .asideTextContainer1,
+    .asideTextContainer2 {
+      width: 26.852vw;
+      height: 30vh;
+      /*display: flex;*/
+      /*justify-content: center;*/
+      /*align-items: center;*/
+    }
+    .asideTextContainer1 {
+      background: #937575;
+    }
+    .asideTextContainer2 {
+      background: #644C4C;
+    }
+    aside {
+      /*display: flex;*/
+      /*justify-content: center;*/
+      /*align-items: center;*/
+      flex-direction: column;
+    }
+    footer {
+      width: 100vw;
+      height: 20vh;
+      background: #BDBDBD;
+      /*display: flex;*/
+      /*justify-content: center;*/
+      /*align-items: center;*/
+    }
+    .textContainer1,
+    .textContainer2,
+    .textContainer3 {
+      margin-left: 25vw;
+    }
   </style>
 </head>
 <body>
-    <header><h1>Header</h1></header>
-    <div class="containerMain">
-      <main>
-        <section class="content1">Content - 1</section>
-        <section class="content2">Content - 2</section>
-        <section class="content3">Content - 3</section>
-      </main>
-      <aside>
-        <div class="spam1">spam -1</div>
-        <div class="spam2">spam -2</div>
-      </aside>
-    </div>
-    <footer>footer</footer>
-</body>
+<header>
+  <div class="headerTextContainer">
+    <h1>Header</h1>
+  </div>
+</header>
 
+<div class="containerMain">
+  <main>
+    <section class="content1">
+      <div class="textContainer1">
+        <h2>Content - 1</h2>
+      </div>
+    </section>
+    <section class="content2">
+      <div class="textContainer2">
+        <h2>Content - 2</h2>
+      </div>
+    </section>
+    <section class="content3">
+      <div class="textContainer3">
+        <h2>Content - 3</h2>
+      </div>
+    </section>
+  </main>
+
+  <aside>
+    <div class="asideTextContainer1">
+      <h3 class="spam1">spam - 1</h3>
+    </div>
+    <div class="asideTextContainer2">
+      <h3 class="spam2">spam - 2</h3>
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footerTextContainer">
+    <h4>footer</h4>
+  </div>
+</footer>
+</body>
 </html>
