@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@media screen and (max-width: 480px) {
+
+    main {
+        padding: 32px 16px;
+        gap: 40px;
+    }
+
+    .top, .bottom {
+        display: none;
+    }
+
+    .mobile-container {
+        width: 343px;
+        height: 332px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .image-container {
+        width: 343px;
+        height: 257px;
+    }
+}
