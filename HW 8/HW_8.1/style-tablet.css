@@ -2,25 +2,52 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
-main{
-    width: 768px;
-    padding: 32px 24px;
-}
+    main {
+        width: 100vw;
+        height: auto;
+        max-height: 654px;
+        max-width: 768px;
+        padding: 4vw 3vw;
+    }
 
-section{
-    width: 720px;
-    height: 263px;
+    section {
+        width: 90vw;
+        height: 34vw;
+        max-height: 263px;
+    }
 
-}
+    .container {
+        width: 28vw;
+        height: 34vw;
+        max-height: 263px;
+    }
 
-.container{
-    width:219px;
-    height: 263px;
-}
+    .image-container {
+        width: 27vw;
+        height: 22vw;
+    }
+    h4 {
+        margin: 2.5vw auto 1.5vw auto;
+        color: #000;
+        text-align: center;
+        font-size: 2.5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
 
-.image-container{
-    width: 218px;
-    height: 164px;
-}
+    p {
+        color: #3C3C43;
+        text-align: center;
+        font-size: 1.5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0.1vw;
+        text-transform: uppercase;
+    }
+    img {
+        border-radius: 1.5vw;
+    }
 
 }

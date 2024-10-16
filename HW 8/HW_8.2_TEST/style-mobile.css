@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@media screen and (max-width: 375px) {
+    body{
+        max-width: 375px;
+        max-height: 1040px;
+    }
+    main{
+        margin: 4.267vw 3.077vh;
+        width: 91.467vw;
+        height: 93.846vh;
+        flex-direction: column;
+        gap: 3.077vh;
+    }
+    .containerLeft, .containerRight{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 3.077vh;
+        border: 1px solid;
+    }
+}

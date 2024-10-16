@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+
+    body{
+        max-width: 768px;
+        max-height: 652px;
+    }
+
+    main{
+        margin: 7.362vh 3.125vw;
+        width: 93.75vw;
+        height: 85.276vh;
+        flex-direction: column;
+        gap: 6.135vh;
+    }
+
+    .containerLeft, .containerRight{
+        gap: 3.125vw;
+    }
+}
