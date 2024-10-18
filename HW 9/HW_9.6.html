@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MacBook Pro 16" - 2</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    body {
+      display: grid;
+      grid-template-columns: 73.264vw 26.852vw;
+      grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+      height: 100vh;
+      grid-template-areas:
+        "header header"
+        "main aside"
+        "main aside"
+        "main aside"
+        "footer footer";
+    }
+
+    header {
+      background: #8D8484;
+      grid-area: header;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      background: #BDBDBD;
+      grid-area: footer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+      grid-area: main;
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    aside {
+      grid-area: aside;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    .content1,
+    .content2,
+    .content3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 73.264vw;
+      height: 20vh;
+    }
+
+    .content1 {
+      background: #776969;
+    }
+    .content2 {
+      background: #643030; /* для .content2 */
+    }
+
+    .content3 {
+      background: #441818; /* для .content3 */
+    }
+
+    .asideTextContainer1 {
+      background: #937575;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .asideTextContainer2 {
+      background: #644C4C;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1, h4, h2, h3 {
+      font-family: "Inter", sans-serif;
+      font-size: 2.5vw; /* 45px */
+      font-weight: 400;
+      line-height: 3vw; /* 54.46px */
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Header</h1>
+</header>
+
+<main>
+  <section class="content1">
+    <h2>Content - 1</h2>
+  </section>
+  <section class="content2">
+    <h2>Content - 2</h2>
+  </section>
+  <section class="content3">
+    <h2>Content - 3</h2>
+  </section>
+</main>
+
+<aside>
+  <div class="asideTextContainer1">
+    <h3 class="spam1">spam - 1</h3>
+  </div>
+  <div class="asideTextContainer2">
+    <h3 class="spam2">spam - 2</h3>
+  </div>
+</aside>
+
+<footer>
+  <h4>Footer</h4>
+</footer>
+</body>
+</html>
